@@ -1,0 +1,20 @@
+.input__toggle{
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.submit{
+    padding: 1.2rem 1rem;
+    align-self: stretch;
+    background: var(--primary-btn-bg);
+    border-radius: .8rem;
+    color: var(--text-light);
+    text-align: center;
+    font-family: var(--header-font);
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;900&family=Montserrat:wght@100;300;400;500;700&display=swap');
+
+:root {
+  --max-width: 1100px;
+  --border-radius: 12px;
+  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
+    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
+    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+  --header-font : 'Montserrat', sans-serif;
+  --paragraf-font : 'Inter', sans-serif;
+
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+
+  --primary-bg : #EBEBEB;
+  --primary-nav-bg : #023E8A;
+  --primary-btn-bg : #0077B6;
+  --primary-btn-alert : #A92525;
+  --primary-card-bg : #D0EBFA;
+  --sec-btn-bg : #E3E3E3;
+  
+  --text-light : #EFEFEF;
+  --text-dark : #2F2F2F;
+  --text-input : rgba(90, 90, 90, 0.80);
+  --text-success : #53C740;
+  --text-warning : #C7B940;
+  --text-alert : #C74840;
+  --sec-text-dark : #9F9F9F;
+
+  --main-grad : linear-gradient(98deg, #023E8A 1.48%, #0062DF 99.49%);
+  --sec-grad : linear-gradient(118deg, #520101 0.69%, #FD1A1A 100%);
+  --bg-grad : linear-gradient(0deg, #030303 12.62%, rgba(0, 0, 0, 0.00) 100%);
+
+  --main-border : 1px solid #D0EBFA;
+  --alert-border : 2px solid #f03a2d;
+
+  --outer-shadow : 4px 8px 15px 0px rgba(0, 0, 0, 0.25);
+  --inner-shadow : 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: calc(.625 * 16px);
+}
+
+button{
+  background: transparent;
+  outline: none;
+  border: none;
+}
